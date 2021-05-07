@@ -31,9 +31,10 @@ class Form extends React.Component {
     return (
       <div className="container ">
         <div className="form">
-          <form action="#" onSubmit={this.handleSubmit}>
+          <form onSubmit={this.handleSubmit}>
             <label htmlFor="task">
-              <input type="text" name="task" id="task" />
+              Add Task
+              <input type="text" name="task" id="task" placeholder="Task..." />
             </label>
 
             <button type="submit">Add Task</button>

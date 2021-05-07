@@ -7,8 +7,6 @@ class Overview extends React.Component {
     this.state = {
       tasks: props.tasks,
     };
-
-    console.log(this.state.tasks);
   }
 
   componentDidUpdate(prevProps) {

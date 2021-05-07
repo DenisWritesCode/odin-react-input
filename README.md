@@ -6,3 +6,6 @@
   state.
 - Render the tasks array as a list element.
 - Use class components.
+
+- [ ] Challenged to add a delete button.
+- [ ] Add an edit button.
